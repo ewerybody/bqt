@@ -13,8 +13,8 @@ with suppress(ModuleNotFoundError):
     import AppKit
     import objc
 
-from PySide2.QtGui import QIcon
-from PySide2.QtCore import QObject
+from bqt.side.QtGui import QIcon
+from bqt.side.QtCore import QObject
 
 from .blender_application import BlenderApplication
 

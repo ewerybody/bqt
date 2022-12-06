@@ -8,9 +8,9 @@ import atexit
 import os
 import sys
 import bpy
-import PySide2.QtCore as QtCore
-from PySide2.QtWidgets import QApplication
-from PySide2.QtCore import QDir
+from bqt.side import QtCore
+from bqt.side.QtWidgets import QApplication
+from bqt.side.QtCore import QDir
 
 from pathlib import Path
 from .blender_applications import BlenderApplication
